@@ -5,7 +5,7 @@ const Feature = () => {
   return (
     <div className="dark:bg-gray-600 bg-white">
       <div className="flex flex-col  items-center w-fill ">
-        <div className="text-[4.2rem] font-Josefin text-[#FF5A5F] ">
+        <div className="text-[4.2rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F] ">
           FEATURES
         </div>
         <div className="flex flex-col items-start font-normal text-justify w-screen bg-slate-400 rounded-sm dark:bg-gray-300 ">

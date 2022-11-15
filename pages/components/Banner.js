@@ -15,9 +15,9 @@ const Banner = () => {
           alt="Doctor Image"
         />
         <div className="flex flex-col  absolute w-full  p-2 sm:p-3 md:p-4 lg:p-8 xl:p-12 ">
-          <p className="text-xl  font-medium w-full sm:text-2xl text-black dark:text-white block ">
+          <p className="text-xl  font-medium w-full sm:text-2xl text-gray-400 dark:text-white block ">
             Do You Feel
-            <span className="text-4xl font-Parisienne w-full font-extrabold block text-[#FF5A5F] sm:text-5xl">
+            <span className="text-4xl font-Parisienne w-full font-extrabold  block text-[#FF5A5F] sm:text-5xl">
               Depressed?
             </span>
           </p>
