@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { MoonIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import logo from "/image-assets/logo.png";
+import person from "/image-assets/person.jpg";
 import ADM from "/image-assets/ADM.png";
 
 const Header = ({ active, onDarkToggle }) => {
@@ -50,7 +50,7 @@ const Header = ({ active, onDarkToggle }) => {
             </Link>
             <Link href="">
               <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
-                About
+                Contact Us
               </li>
             </Link>
           </ul>
@@ -65,6 +65,20 @@ const Header = ({ active, onDarkToggle }) => {
 
           <div class={x ? "dark" : ""} onClick={onDarkToggle}>
             <MoonIcon className="h-7 px-1 cursor-pointer text-black hover:text-[#FF5A5F] active:scale-90 transition duration-150 dark:text-white dark:hover:text-[#FF5A5F]" />
+          </div>
+          <div>
+          <Image
+              src={person}
+              // src="https://links.papareact.com/qd3"
+              // layout="fill"
+              // sizes="100vw" fill
+              // objectFit="contain"
+              objectPosition="right"
+              // className=""
+              alt="Logo"
+              viewBox="0 0 20 20"
+              className="h-10 w-10 object-contain rounded-full hidden"
+            />
           </div>
         </div>
       </header>

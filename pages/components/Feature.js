@@ -15,13 +15,13 @@ const Feature = () => {
               Measure The Stage Of The Depression.
             </li>
             <li key={1} className="text-start">
-              It Recommend The Song,movie,Book, Based On Patient Interest.
+              Recommendation of the Song,movie,Book, Based On Patient Interest.
             </li>
             <li key={2} className="text-start">
               Give a Recommendation to a Doctor
             </li>
             <li key={3} className="text-start">
-              Light/Dark Mode - High Refreshrate
+              Support Light/Dark Mode
             </li>
             <li key={4} className="text-start">
               High Refreshrate

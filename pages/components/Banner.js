@@ -23,7 +23,10 @@ const Banner = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center mt-2 ">
+      <div className="text-gray-500 text-center font-Josefin font-extrabold text-6xl">
+        ANTI <span className="text-red-700">DEPRESSION</span> MEDIA
+      </div>
+      <div className="flex items-center justify-center  mt-2 ">
         <button className="text-center mt-4 mb-8 px-4 py-2 bg-[#FF5A5F] rounded-full text-white font-medium shadow-sm hover:shadow-lg hover:border dark:border-none hover:border-[#FF5A5F] hover:bg-white hover:text-[#FF5A5F]">
           We are here to help you
         </button>
