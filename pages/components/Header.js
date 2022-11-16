@@ -87,7 +87,7 @@ const Header = ({ active, onDarkToggle }) => {
               className="h-5 w-5 object-contain rounded-full hidden "
             />
           </div>
-          <Hamburger />
+          
         </div>
       </header>
     </div>
