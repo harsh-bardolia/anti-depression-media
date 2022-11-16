@@ -11,14 +11,14 @@ const Features = () => {
   }
 
   return (
-    <div class={x ? 'dark' : ''} className="bg-black h-screen dark:bg-gray-600">
+    <div class={x ? 'dark' : ''} className="bg-white  h-screen dark:bg-gray-600">
         <Header onDarkToggle={toggleTheme} />
 
         <Feature />
 
         <Subscribe />
 
-        <Footer  />
+        <Footer />
     </div>
   )
 }

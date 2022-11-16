@@ -13,6 +13,7 @@ module.exports = {
       'mrdafoe' : ['Mr Dafoe', 'cursive'],
       'Parisienne': ['Parisienne', 'cursive'],
       'Josefin' : ['Josefin Sans', 'sans-serif'],
+      'Playfair ' : ['Playfair Display' , 'sans-serif'],
     }
   },
   plugins: [],

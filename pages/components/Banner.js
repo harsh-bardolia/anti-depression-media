@@ -15,7 +15,7 @@ const Banner = () => {
           alt="Doctor Image"
         />
         <div className="flex flex-col  absolute w-full  p-2 sm:p-3 md:p-4 lg:p-8 xl:p-12 ">
-          <p className="text-xl  font-medium w-full sm:text-2xl text-gray-400 dark:text-white block ">
+          <p className="text-xl font-Ubuntu  font-medium w-full sm:text-2xl text-gray-400 dark:text-white block ">
             Do You Feel
             <span className="text-4xl font-Parisienne w-full font-extrabold  block text-[#FF5A5F] sm:text-5xl">
               Depressed?
@@ -23,8 +23,8 @@ const Banner = () => {
           </p>
         </div>
       </div>
-      <div className="text-gray-500 text-center font-Josefin font-extrabold text-6xl">
-        ANTI <span className="text-red-700">DEPRESSION</span> MEDIA
+      <div className="text-gray-500 text-center font-Josefin font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+        ANTI <span className="text-red-700 font-Josefin">DEPRESSION</span> MEDIA
       </div>
       <div className="flex items-center justify-center  mt-2 ">
         <button className="text-center mt-4 mb-8 px-4 py-2 bg-[#FF5A5F] rounded-full text-white font-medium shadow-sm hover:shadow-lg hover:border dark:border-none hover:border-[#FF5A5F] hover:bg-white hover:text-[#FF5A5F]">

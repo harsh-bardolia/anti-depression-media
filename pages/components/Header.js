@@ -1,14 +1,21 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { MoonIcon } from "@heroicons/react/24/outline";
+import { Bars4Icon, MoonIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import person from "/image-assets/person.jpg";
 import ADM from "/image-assets/ADM.png";
+import Hamburger from "./Hamburger";
 
 const Header = ({ active, onDarkToggle }) => {
   const [x, setX] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  const closeTheButton = () => {
+    setOpen(open => !open);
+  }
+
   return (
-    <div class={x ? "dark" : ""}>
+    <div class={x ? "dark" : ""} className="bg-white h-screen">
       <header className="sticky top-0 z-70 grid grid-cols-3 items-center justify-between  bg-white shadow-md p-3 md:px-10 font-medium dark:bg-gray-800">
         {/* Left */}
 
@@ -58,28 +65,29 @@ const Header = ({ active, onDarkToggle }) => {
 
         {/* Right */}
 
-        <div className="flex items-center justify-end space-x-4 ">
-          <button className="bg-[#FF5A5F]  py-2 px-6 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 ">
-            Login
-          </button>
+        <div className="flex items-center justify-end space-x-1 ">
+          {/* <button className="bg-[#FF5A5F]  py-2 px-6 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 ">
+            Sign in
+          </button> */}
 
           <div class={x ? "dark" : ""} onClick={onDarkToggle}>
             <MoonIcon className="h-7 px-1 cursor-pointer text-black hover:text-[#FF5A5F] active:scale-90 transition duration-150 dark:text-white dark:hover:text-[#FF5A5F]" />
           </div>
           <div>
-          <Image
+            <Image
               src={person}
               // src="https://links.papareact.com/qd3"
-              // layout="fill"
+              layout="fill"
               // sizes="100vw" fill
-              // objectFit="contain"
+              objectFit="contain"
               objectPosition="right"
               // className=""
               alt="Logo"
               viewBox="0 0 20 20"
-              className="h-10 w-10 object-contain rounded-full hidden"
+              className="h-5 w-5 object-contain rounded-full hidden "
             />
           </div>
+          <Hamburger />
         </div>
       </header>
     </div>
