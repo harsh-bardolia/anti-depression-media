@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { Bars4Icon, MoonIcon } from "@heroicons/react/24/outline";
+import { MoonIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import person from "/image-assets/person.jpg";
 import ADM from "/image-assets/ADM.png";
