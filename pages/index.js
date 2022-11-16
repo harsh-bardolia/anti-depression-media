@@ -20,20 +20,20 @@ export default function Home() {
     setX(!x);
   }
 
-  useEffect(()=>{
-    return onAuthStateChanged(auth , user =>{
-      if (user){
-        setUser({
-          name: user.displayName,
-          photoUrl: user.photoURL,
-        })
-      }
-      else{
-        setUser(null);
-        router.push('/login');
-      }
-    })
-  },[])
+  // useEffect(()=>{
+  //   return onAuthStateChanged(auth , user =>{
+  //     if (user){
+  //       setUser({
+  //         name: user.displayName,
+  //         photoUrl: user.photoURL,
+  //       })
+  //     }
+  //     else{
+  //       setUser(null);
+  //       router.push('/login');
+  //     }
+  //   })
+  // },[])
 
   return (
     <div className=" overflow-x-none " class={x ? 'dark' : ''}>

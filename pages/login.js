@@ -12,15 +12,15 @@ import { auth, provider } from "../firebase";
 const login = () => {
   const router = useRouter()
 
-  useEffect(() => {
+//   useEffect(() => {
 
-    onAuthStateChanged(auth, user => {
-      if (user) {
-        router.push("/");
-      }
-    })
+//     onAuthStateChanged(auth, user => {
+//       if (user) {
+//         router.push("/");
+//       }
+//     })
 
-  }, []);
+//   }, []);
 
   return (
     <div className="flex flex-col h-screen w-screen bg-gray-300 space-y-4">
@@ -39,7 +39,7 @@ const login = () => {
 
       <div
         className="bg-[#FF5A5F] px-8 py-4 mt-8 m-5 cursor-pointer text-black items-center text-center font-bold text-lg"
-        onClick={() => signInWithPopup(auth,provider)}
+        // onClick={() => signInWithPopup(auth,provider)}
       >
         Sign in with Google
       </div>
