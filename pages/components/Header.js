@@ -74,7 +74,7 @@ const Header = ({ active, onDarkToggle }) => {
             <MoonIcon className="h-7 px-1 cursor-pointer text-black hover:text-[#FF5A5F] active:scale-90 transition duration-150 dark:text-white dark:hover:text-[#FF5A5F]" />
           </div>
           <div>
-            <Image
+            {/* <Image
               src={person}
               // src="https://links.papareact.com/qd3"
               layout="fill"
@@ -85,7 +85,7 @@ const Header = ({ active, onDarkToggle }) => {
               alt="Logo"
               viewBox="0 0 20 20"
               className="h-5 w-5 object-contain rounded-full hidden "
-            />
+            /> */}
           </div>
           
         </div>

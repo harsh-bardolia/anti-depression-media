@@ -12,7 +12,6 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [x, setX] = useState(false);
-  const [user , setUser] =useState(null)
 
   const toggleTheme = () => {
     setX(!x);
