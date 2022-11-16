@@ -4,23 +4,10 @@ import React, { useEffect } from "react";
 import Header from "./components/Header";
 import ADM from "/image-assets/ADM.png";
 import Research from "/image-assets/Research.png";
-import depress from "/image-assets/depress.jpg";
-import { signInWithPopup, onAuthStateChanged } from "firebase/auth";
-import { useRouter } from "next/router";
-import { auth, provider } from "../firebase";
+
+
 
 const login = () => {
-  const router = useRouter()
-
-//   useEffect(() => {
-
-//     onAuthStateChanged(auth, user => {
-//       if (user) {
-//         router.push("/");
-//       }
-//     })
-
-//   }, []);
 
   return (
     <div className="flex flex-col h-screen w-screen bg-gray-300 space-y-4">
