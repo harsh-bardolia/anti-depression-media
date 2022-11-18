@@ -2,16 +2,16 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { MoonIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import person from "/image-assets/person.jpg";
+// import person from "/image-assets/person.jpg";
 import ADM from "/image-assets/ADM.png";
-import Hamburger from "./Hamburger";
+// import Hamburger from "./Hamburger";
 
 const Header = ({ active, onDarkToggle }) => {
-  const [x, setX] = useState(false);
+  // const [x, setX] = useState(false);
   const [open, setOpen] = useState(false);
 
   const closeTheButton = () => {
-    setOpen(open => !open);
+    setOpen(!open);
   }
 
   return (

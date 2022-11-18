@@ -1,4 +1,4 @@
-import { ChevronRightIcon } from "@heroicons/react/24/outline";
+// import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import React from "react";
 
 const Feature = () => {
