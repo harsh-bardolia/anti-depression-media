@@ -5,7 +5,7 @@ import Quoto from "./Quoto";
 
 const Banner = () => {
   return (
-    <div className="dark:bg-gray-700 pt-10">
+    <div className="dark:bg-gray-700 pt-12 ">
       <div className="relative h-[300px] w-100vw -mt-2 sm:h-[360px] md:h-[400px] lg:h-[450px] xl:h-[500px] 2xl:h-[600px] ">
         <Image
           src={BannerImage}
