@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React from "react";
 import BannerImage from "/image-assets/banner.png";
 import Quoto from "./Quoto";
