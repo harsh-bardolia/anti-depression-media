@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    domains: ['links.papareact.com','freepik.com']
-  },
   reactStrictMode: true,
   swcMinify: true,
-  future: {webpack5: true}
+  // feature: {webpack5: true},
+  images: {
+    domains: ['links.papareact.com','freepik.com']
+  }
 }
 
 module.exports = nextConfig
