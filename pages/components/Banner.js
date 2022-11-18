@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import banner from "/image-assets/banner.png";
+import Banner from "/image-assets/banner.png";
 import Quoto from "./Quoto";
 
 const Banner = () => {
@@ -8,7 +8,7 @@ const Banner = () => {
     <div className="dark:bg-gray-700 ">
       <div className="relative h-[300px] w-100vw -mt-2 sm:h-[360px] md:h-[400px] lg:h-[450px] xl:h-[500px] 2xl:h-[600px] ">
         <Image
-          src={banner}
+          src={Banner}
           layout="fill"
           objectFit="contain"
           className="md:-py-5 "
