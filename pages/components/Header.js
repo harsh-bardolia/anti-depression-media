@@ -15,11 +15,11 @@ const Header = ({ active, onDarkToggle }) => {
   }
 
   return (
-    <div class={x ? "dark" : ""} className="bg-white h-screen">
-      <header className="sticky top-0 z-70 grid grid-cols-3 items-center justify-between  bg-white shadow-md p-3 md:px-10 font-medium dark:bg-gray-800">
+    // <div class={x ? "dark" : ""} className="bg-white h-screen">
+      <header className="fixed top-0 z-999 w-screen grid grid-cols-3 items-center justify-between bg-white shadow-md p-3 md:px-10 dark:bg-gray-800">
         {/* Left */}
 
-        <div className=" relative flex items-center h-10 cursor-pointer my-auto">
+        <div className=" relative flex items-center h-10 cursor-pointer my-auto ">
           <Link href="/">
             <Image
               src={ADM}
@@ -51,7 +51,7 @@ const Header = ({ active, onDarkToggle }) => {
               </li>
             </Link>
             <Link href="">
-              <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
+              <li className="hover:text-[#FF5A5F]  cursor-pointer active:scale-90 transition duration-150">
                 Let&apos;s Test
               </li>
             </Link>
@@ -77,7 +77,7 @@ const Header = ({ active, onDarkToggle }) => {
           
         </div>
       </header>
-    </div>
+    //</div>
   );
 };
 

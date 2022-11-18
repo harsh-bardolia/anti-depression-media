@@ -17,7 +17,7 @@ const Subscribe = () => {
           placeholder="Your E-Mail Address"
           className=" font-[15px] px-5 w-full border-transparent rounded-l-sm outline-none placeholder-slate-600 "
         ></input>
-        <button className=" bg-[#FF5A5F]  text-white rounded-r-sm px-[18px] py-3 border-none font-medium text-[medium] border b-3 outline-none ">
+        <button className=" bg-[#FF5A5F] min-w-[100px] text-white rounded-r-sm px-[18px] py-3 border-none font-medium text-[medium] outline-none ">
           Sign Up
         </button>
       </div>

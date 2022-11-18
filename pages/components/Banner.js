@@ -5,16 +5,16 @@ import Quoto from "./Quoto";
 
 const Banner = () => {
   return (
-    <div className="dark:bg-gray-700 ">
+    <div className="dark:bg-gray-700 pt-10">
       <div className="relative h-[300px] w-100vw -mt-2 sm:h-[360px] md:h-[400px] lg:h-[450px] xl:h-[500px] 2xl:h-[600px] ">
         <Image
           src={BannerImage}
           layout="fill"
           objectFit="contain"
-          className="md:-py-5 "
+          className="md:-py-5 -z-20 "
           alt="Doctor Image"
         />
-        <div className="flex flex-col  absolute w-full  p-2 sm:p-3 md:p-4 lg:p-8 xl:p-12 ">
+        <div className="flex flex-col -z-20 absolute w-full  p-2 sm:p-3 md:p-4 lg:p-8 xl:p-12 ">
           <p className="text-xl font-Ubuntu  font-medium w-full sm:text-2xl text-gray-400 dark:text-white block ">
             Do You Feel
             <span className="text-4xl font-Parisienne w-full font-extrabold  block text-[#FF5A5F] sm:text-5xl">
