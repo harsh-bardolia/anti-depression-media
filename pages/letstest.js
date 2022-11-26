@@ -1,4 +1,5 @@
 import { ArrowRightCircleIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 import React, { useState } from "react";
 import Header from "./components/Header";
 
@@ -17,8 +18,8 @@ const Letstest = () => {
           Let&apos;s Test
         </div>
         <div className="p-5 m-6  bg-gray-300 rounded-xl">
-          <div className="w-auto">
-            <ul className="list-decimal list-outside  p-5 m-2">
+          <div className="w-fill">
+            <ul className="items-center list-decimal list-outside  p-5 m-2">
               {/* First Question */}
               <li key={1} className="text-start text-lg text-black font-bold">
                 How often have you had little interest or pleasure in doing
@@ -729,10 +730,12 @@ const Letstest = () => {
             </ul>
           </div>
           <div className="flex items-center justify-center">
-            <button className="bg-[#FF5A5F] flex justify-between py-3 px-6 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 ">
-              Submit
-              <ArrowRightCircleIcon className="pl-3 h-6 items-center text-white" />
-            </button>
+            <Link href='./result'>
+              <button className="bg-[#FF5A5F] flex justify-between py-3 px-6 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 ">
+                Submit
+                <ArrowRightCircleIcon className="pl-3 h-6 items-center text-white" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
