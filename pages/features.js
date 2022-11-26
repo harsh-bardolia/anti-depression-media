@@ -7,7 +7,7 @@ import Subscribe from './components/Subscribe'
 const Features = () => {
   const [x, setX] = useState(false);
   const toggleTheme = () => {
-    setX(x =>!x);
+    setX(!x);
   }
 
   return (

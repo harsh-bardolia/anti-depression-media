@@ -4,7 +4,7 @@ import React from "react";
 const Feature = () => {
   return (
     <div className="dark:bg-gray-600 bg-white pt-16">
-      <div className="flex flex-col  items-center w-fill  ">
+      <div className="flex flex-col mt-2 items-center w-fill  ">
         <div className="text-[4.2rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F] ">
           FEATURES
         </div>
