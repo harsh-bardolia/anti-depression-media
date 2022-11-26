@@ -9,16 +9,16 @@ const Letstest = () => {
   };
 
   return (
-    <div class={x ? "dark" : ""} className="overscroll-x-none w-full">
+    <div class={x ? "dark" : ""} className=" w-full">
       <Header onDarkToggle={toggleTheme} />
 
       <div className="flex flex-col items-center mt-6 bg-white dark:bg-gray-700">
         <div className=" py-14 text-[4.2rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F]">
           Let&apos;s Test
         </div>
-        <div className="p-5 m-6 w-fill bg-gray-300 rounded-xl">
-          <div className="p-5 m-1">
-            <ul className="list-decimal list-outside ">
+        <div className="p-5 m-6  bg-gray-300 rounded-xl">
+          <div className="w-auto">
+            <ul className="list-decimal list-outside  p-5 m-2">
               {/* First Question */}
               <li key={1} className="text-start text-lg text-black font-bold">
                 How often have you had little interest or pleasure in doing
