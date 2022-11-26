@@ -8,6 +8,7 @@ import Plans from "./components/Plans";
 import Subscribe from "./components/Subscribe";
 // import styles from "../styles/Home.module.css";
 import { useEffect, useState } from "react";
+import Content from "./components/Content";
 
 
 export default function Home() {
@@ -16,7 +17,6 @@ export default function Home() {
   const toggleTheme = () => {
     setX(!x);
   }
-
 
   return (
     <div className=" overflow-x-none pt-10" class={x ? 'dark' : ''}>
@@ -34,13 +34,23 @@ export default function Home() {
         {/* Banner */}
         <Banner />
 
-        <div className="dark:bg-gray-700 p-2 ">
+        <div className="flex flex-col lg:flex-row dark:bg-gray-700 p-2">
           {/* Mission */}
 
-          <Mission />
+          {/* <Mission className="flex-1"/> */}
 
+          <Content tellContent="OUR MISSION" paraGraph="To determine the initial stage of a depression and also provide the way
+        to overcome from this situation. For that, we provide some
+        recommendations like songs, movies, books, based on user interest. And
+        if stage is higher, then we also suggest a doctor for you."/>
+
+          <Content tellContent="OUR PLANS" paraGraph="Anti Depression Media means managing & challenging tasks throughout
+        continuous Improvements and Innovations. We believe in empowering and
+        encouraging people to aware about depression and to overcome from it. We
+        believe in Teamwork and individual excellence in self-belief & trusting
+        You."/>
           {/* Plans */}
-          <Plans speach="OUR PLAN" />
+          {/* <Plans speach="OUR PLAN" className="flex-1"/> */}
         </div>
 
         {/* Subscribe */}
