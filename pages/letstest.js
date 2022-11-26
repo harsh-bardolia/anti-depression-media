@@ -9,15 +9,15 @@ const Letstest = () => {
   };
 
   return (
-    <div class={x ? "dark" : ""}>
+    <div class={x ? "dark" : ""} className="overscroll-x-none w-full">
       <Header onDarkToggle={toggleTheme} />
 
-      <div className="flex flex-col items-center w-fill bg-white dark:bg-gray-700">
-        <div className="my-3 py-14 text-[4.2rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F]">
+      <div className="flex flex-col items-center mt-6 bg-white dark:bg-gray-700">
+        <div className=" py-14 text-[4.2rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F]">
           Let&apos;s Test
         </div>
-        <div className="m-3 p-4 bg-gray-300 h-auto w-[80%] rounded-lg">
-          <div className="p-4 m-2 ">
+        <div className="p-5 m-6 w-fill bg-gray-300 rounded-xl">
+          <div className="p-5 m-1">
             <ul className="list-decimal list-outside ">
               {/* First Question */}
               <li key={1} className="text-start text-lg text-black font-bold">
