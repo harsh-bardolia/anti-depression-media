@@ -91,8 +91,8 @@ const Letstest = () => {
               {/* Second Question */}
 
               <li key={2} className="text-start text-lg text-black font-bold">
-                How often have you had little interest or pleasure in doing
-                things?
+                How often have you been bothered by feeling tired or having
+                little energy?
               </li>
 
               <div className="py-2 ">
