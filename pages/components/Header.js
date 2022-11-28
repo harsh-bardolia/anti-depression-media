@@ -1,37 +1,29 @@
 import Image from "next/legacy/image";
 import React, { useState } from "react";
-import { MoonIcon } from "@heroicons/react/24/outline";
+import { Bars4Icon, MoonIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-// import person from "/image-assets/person.jpg";
 import ADM from "/image-assets/ADM.png";
-// import Hamburger from "./Hamburger";
-
+import Hamburger from "./Hamburger";
+import { useUI } from "../../Context/UIContext";
 const Header = ({ active, onDarkToggle }) => {
   const [x, setX] = useState(false);
   const [open, setOpen] = useState(false);
-
-  const closeTheButton = () => {
-    setOpen(!open);
-  };
+  const { navMenu, toggleNavMenu } = useUI();
 
   return (
-    // <div class={x ? "dark" : ""} className="bg-white h-screen">
-    <header className="fixed top-0 z-999 w-screen grid grid-cols-3 items-center justify-between bg-white shadow-md p-3 md:px-10 dark:bg-gray-800">
+    <header className="fixed top-0 z-[999] w-screen grid grid-cols-3 items-center justify-between bg-white shadow-md p-3  md:px-10 dark:bg-gray-800">
       {/* Left */}
 
       <div className=" relative flex items-center h-10 cursor-pointer my-auto ">
         <Link href="/">
           <Image
             src={ADM}
-            // src="https://links.papareact.com/qd3"
             layout="fill"
-            // sizes="100vw" fill
             objectFit="contain"
             objectPosition="left"
             className=""
             alt="Logo"
             viewBox="0 0 20 20"
-            // className="h-1 w-2 object-contain"
           />
         </Link>
       </div>
@@ -66,18 +58,25 @@ const Header = ({ active, onDarkToggle }) => {
       {/* Right */}
 
       <div className="flex items-center justify-end space-x-1 ">
-        <Link href='/login'>
-          <button className="bg-[#FF5A5F]  py-2 px-6 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 ">
+        <Link href="/login">
+          <button className="bg-[#FF5A5F] min-w-[5rem] py-2 px-4 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 ">
             Sign in
           </button>
         </Link>
 
-        <div class={x ? "dark" : ""} onClick={onDarkToggle}>
+        <div className={x ? "dark" : ""} onClick={onDarkToggle}>
           <MoonIcon className="h-7 px-1 cursor-pointer text-black hover:text-[#FF5A5F] active:scale-90 transition duration-150 dark:text-white dark:hover:text-[#FF5A5F]" />
         </div>
+        <div>
+          <Bars4Icon
+            className="text-black h-8  cursor-pointer dark:text-white hover:text-[#FF5A5F] visible sm:hidden"
+            onClick={toggleNavMenu}
+          />
+        </div>
       </div>
+
+      {navMenu && <Hamburger />}
     </header>
-    //</div>
   );
 };
 

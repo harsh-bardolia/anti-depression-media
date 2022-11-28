@@ -8,9 +8,9 @@ const Result = () => {
   };
   return (
     <>
-      <div className="flex flex-col mt-52 text-center  items-center justify-center dark:bg-gray-300">
+      <div className="flex flex-col h-screen text-center  items-center justify-center dark:bg-gray-300">
         <p className="text-red-700  font-Josefin font-extrabold text-8xl ">
-          OPPS !!!
+          OOPS !!!
         </p>
         <p className="text-gray-600  font-Josefin text-3xl tracking-wider">
           THIS SITE IS UNDER CONTRUCTION

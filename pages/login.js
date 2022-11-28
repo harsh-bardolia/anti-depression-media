@@ -7,7 +7,7 @@ const Login = () => {
     setX(!x);
   };
   return (
-    <div class={x ? "dark" : ""}>
+    <div className={x ? "dark" : ""}>
       <section className="bg-red-300 h-screen overflow-y-hidden dark:bg-gray-500">
         <Header onDarkToggle={toggleTheme} />
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 mt-16">
@@ -16,7 +16,7 @@ const Login = () => {
               <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                 Register Your New Account
               </h1>
-              <form class="space-y-4 md:space-y-6" action="#">
+              <form className="space-y-4 md:space-y-6" action="#">
                 <div>
                   <label
                     for="email"
@@ -56,7 +56,7 @@ const Login = () => {
                       Confirm password
                     </label>
                     <input
-                      type="confirm-password"
+                      type="password"
                       name="confirm-password"
                       id="confirm-password"
                       placeholder="••••••••"
@@ -64,7 +64,7 @@ const Login = () => {
                       required=""
                     />
                   </div>
-                  <div class="flex items-start"></div>
+                  <div className="flex items-start"></div>
                   <button
                     type="submit"
                     className="w-full text-white bg-primary-600 border-none bg-[#FF5A5F]  font-bold rounded-lg text-md px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800  border-2 border-black mt-5 hadow-sm hover:shadow-xl active:scale-90 transition duration-150  "

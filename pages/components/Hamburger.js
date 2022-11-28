@@ -1,28 +1,34 @@
-import { Bars4Icon } from '@heroicons/react/24/outline'
-import React from 'react'
+import { Bars3Icon } from "@heroicons/react/24/outline";
+import Link from "next/link";
+import React from "react";
 
 const Hamburger = () => {
   return (
     <div>
-        <Bars4Icon className="text-black h-8 cursor-pointer dark:text-white"  />
-            <div className="list-none hidden">
-              <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
-                Overview
-              </li>
-              <li className="hover:text-[#f05055] cursor-pointer active:scale-90 transition duration-150">
-                Features
-              </li>
-              <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
-                Let&apos;s Test
-              </li>
-              <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
-                Contact Us
-              </li>
-            </div>
-
-            
+      <div className="w-screen items-end text-end pr-6 list-none text-gray-600 font-bold dark:text-white ">
+        <Link href="/" >
+          <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
+            Overview
+          </li>
+        </Link>
+        <Link href="/features">
+          <li className="hover:text-[#f05055] cursor-pointer active:scale-90 transition duration-150">
+            Features
+          </li>
+        </Link>
+        <Link href='/letstest'>
+          <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
+            Let&apos;s Test
+          </li>
+        </Link>
+        <Link href='#'>
+          <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
+            Contact Us
+          </li>
+        </Link>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hamburger
+export default Hamburger;

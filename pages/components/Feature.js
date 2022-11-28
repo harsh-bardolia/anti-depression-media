@@ -1,4 +1,3 @@
-// import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import React from "react";
 
 const Feature = () => {
@@ -16,8 +15,8 @@ const Feature = () => {
                 We Can Measure The Stage Of The Depression.
               </li>
               <li key={1} className="text-start">
-                Recommendation of the Song,movie,Book, Based On Patient
-                Interest.
+                Recommendation of the Song, Movie, Book, Based On Patient
+                interest.
               </li>
               <li key={2} className="text-start">
                 Give a Recommendation to a Doctor
