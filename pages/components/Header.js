@@ -69,7 +69,7 @@ const Header = ({ active, onDarkToggle }) => {
         </div>
         <div>
           <Bars4Icon
-            className="text-black h-8  cursor-pointer dark:text-white hover:text-[#FF5A5F] visible sm:hidden"
+            className="text-black h-7  cursor-pointer dark:text-white hover:text-[#FF5A5F] dark:hover:text-[#FF5A5F] visible active:scale-90 transition duration-150 sm:hidden"
             onClick={toggleNavMenu}
           />
         </div>
