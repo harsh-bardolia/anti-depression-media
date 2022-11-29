@@ -47,7 +47,7 @@ const Header = ({ active, onDarkToggle }) => {
               Let&apos;s Test
             </li>
           </Link>
-          <Link href="">
+          <Link href="./contact">
             <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
               Contact Us
             </li>

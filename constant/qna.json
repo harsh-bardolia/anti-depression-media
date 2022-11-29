@@ -1,42 +1,32 @@
 [
-    {
-        "question": "How often have you had little interest or pleasure in doing things",
-        "nameShow" : "radio_one"     
-    },
-    {
-        "question": "How often have you been bothered by feeling tired or having little energy",
-        "nameShow": "radio_two"
-    },
-    {
-        "question": "How often have you been bothered by trouble falling or staying asleep, or sleeping too much",
-        "nameShow": "radio_three"
-    },
-    {
-        "question": "How often do you feel that all your hobbies and interests are boring and worthless and nothing can stimulate you",
-        "nameShow": "radio_four"
-    },
-    {
-        "question": "How often have you been bothered by feeling bad about yourself, or that you are a failure, or have let yourself or your family down",
-        "nameShow": "radio_five"
-    },
-    {
-        "question": "Are you afraid of forming a new relationship and feel scared of attachment",
-        "nameShow": "radio_six"
-    },
-    {
-        "question": "How often you have an anxiety attack (suddenly feeling fear or panic)",
-        "nameShow": "radio_seven"
-    },
-    {
-        "question": "How often have you been bothered by feeling nervous, anxious or on edge",
-        "nameShow": "radio_eight"
-    },
-    {
-        "question": "How often have you been bothered by feeling afraid as if something awful might happen",
-        "nameShow": "radio_nine"
-    },
-    {
-        "question": "How often do you feel guilty or tearful htmlFor no reason",
-        "nameShow": "radio_ten"
-    }
+  {
+    "question": "How often have you had little interest or pleasure in doing things"
+  },
+  {
+    "question": "How often have you been bothered by feeling tired or having little energy"
+  },
+  {
+    "question": "How often have you been bothered by trouble falling or staying asleep, or sleeping too much"
+  },
+  {
+    "question": "How often do you feel that all your hobbies and interests are boring and worthless and nothing can stimulate you"
+  },
+  {
+    "question": "How often have you been bothered by feeling bad about yourself, or that you are a failure, or have let yourself or your family down"
+  },
+  {
+    "question": "Are you afraid of forming a new relationship and feel scared of attachment"
+  },
+  {
+    "question": "How often you have an anxiety attack (suddenly feeling fear or panic)"
+  },
+  {
+    "question": "How often have you been bothered by feeling nervous, anxious or on edge"
+  },
+  {
+    "question": "How often have you been bothered by feeling afraid as if something awful might happen"
+  },
+  {
+    "question": "How often do you feel guilty or tearful htmlFor no reason"
+  }
 ]
