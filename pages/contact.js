@@ -2,6 +2,15 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Image from "next/legacy/image";
 import Team from "../constant/teamNames.json";
+import {
+  FaFacebook,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
+
+import Link from "next/link";
 
 const Contact = () => {
   const [x, setX] = useState(false);
@@ -13,36 +22,58 @@ const Contact = () => {
       <div
         className={`${
           x ? "dark" : ""
-        } flex flex-col justify-end bg-white dark:bg-gray-600`}
+        } flex flex-col justify-end bg-white dark:bg-gray-600 h-screen`}
       >
         <Header onDarkToggle={toggleTheme} />
         <div className="flex flex-col items-center mt-6 bg-white dark:bg-gray-700">
-          <div className=" py-14 text-[3.5rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F]">
+          <div className=" py-14 text-center text-[3.5rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F]">
             TEAM MEMBERS
           </div>
 
-          {Team &&
-            Team.map((myName, myLink, index) => {
-
-              return (
-                <li key={index.indexing} className="flex flex-col md:flex-row">
-                  <div className="flex items-center">
-                    <div className="">
-                      <Image
-                        src={myLink.imgLink}
-                        height={100}
-                        width={100}
-                        layout="intrinsic"
-                        className=""
-                      />
+          <div className="grid grid-cols-1 justify-between sm:grid-cols-2 xl:grid-cols-3">
+            {Team &&
+              Team.map((item, index) => {
+                return (
+                  <li key={index} className="list-none m-4">
+                    <div className="flex flex-col items-center">
+                      <div className="items-center">
+                        <Image
+                          src={item.imgLink}
+                          height={100}
+                          width={100}
+                          // layout="intrinsic"
+                          className="rounded-full"
+                        />
+                      </div>
+                      <div className="p-2 items-center">
+                        <p className="text-gray-900 text-center dark:text-gray-200 font-extrabold">
+                          {item.fullName}
+                        </p>
+                        <div className="bg-transparent flex">
+                          <div className="flex space-x-2">
+                            <Link href={item.githubLink}>
+                              <FaGithub className="text-gray-400 hover:text-black dark:hover:text-black dark:text-gray-400" />
+                            </Link>
+                            <Link href={item.linkedIn}>
+                              <FaLinkedin className="text-gray-400 hover:text-blue-700 dark:hover:text-blue-700 dark:text-gray-400" />
+                            </Link>
+                            <Link href={item.insta}>
+                              <FaInstagram className="text-gray-400 hover:text-pink-600 dark:hover:text-pink-600 dark:text-gray-400" />
+                            </Link>
+                            <Link href={item.facebook}>
+                              <FaFacebook className="text-gray-400 hover:text-blue-700 dark:hover:text-blue-700 dark:text-gray-400" />
+                            </Link>
+                            <Link href={item.twitter}>
+                              <FaTwitter className="text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-600 dark:text-gray-400" />
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <p className="text-cyan-500 font-extrabold">
-                      {myName.fullName}
-                    </p>
-                  </div>
-                </li>
-              );
-            })}
+                  </li>
+                );
+              })}
+          </div>
         </div>
       </div>
     </>
