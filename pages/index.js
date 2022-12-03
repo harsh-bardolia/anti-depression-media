@@ -11,6 +11,10 @@ export default function Home() {
 
   const toggleTheme = () => {
     setX(!x);
+
+
+
+    
   };
 
   return (
@@ -24,6 +28,7 @@ export default function Home() {
       {/* Header */}
       <div>
         <Header onDarkToggle={toggleTheme} />
+        
 
         {/* Banner */}
         <Banner />

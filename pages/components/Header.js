@@ -5,6 +5,7 @@ import Link from "next/link";
 import ADM from "/image-assets/ADM.png";
 import Hamburger from "./Hamburger";
 import { useUI } from "../../Context/UIContext";
+
 const Header = ({ active, onDarkToggle }) => {
   const [x, setX] = useState(false);
   const [open, setOpen] = useState(false);

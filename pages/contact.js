@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 
 import Link from "next/link";
+import Subscribe from "./components/Subscribe";
 
 const Contact = () => {
   const [x, setX] = useState(false);
@@ -25,8 +26,9 @@ const Contact = () => {
         } flex flex-col justify-end bg-white dark:bg-gray-600 h-screen`}
       >
         <Header onDarkToggle={toggleTheme} />
-        <div className="flex flex-col items-center mt-6 bg-white dark:bg-gray-700">
-          <div className=" py-14 text-center text-[3.5rem] sm:text-[4.5rem] md:text-[4.8rem] lg:text-[5.5rem] font-Josefin text-[#FF5A5F]">
+
+        <div className="absolute w-screen h-screen  flex flex-col items-center bg-white dark:bg-gray-700">
+          <div className="mt-24 text-center text-[3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] font-Josefin text-[#FF5A5F]">
             TEAM MEMBERS
           </div>
 
@@ -34,7 +36,7 @@ const Contact = () => {
             {Team &&
               Team.map((item, index) => {
                 return (
-                  <li key={index} className="list-none m-4">
+                  <li key={index} className="list-none">
                     <div className="flex flex-col items-center">
                       <div className="items-center">
                         <Image
@@ -45,12 +47,12 @@ const Contact = () => {
                           className="rounded-full"
                         />
                       </div>
-                      <div className="p-2 items-center">
+                      <div className="p-3 items-center">
                         <p className="text-gray-900 text-center dark:text-gray-200 font-extrabold">
                           {item.fullName}
                         </p>
                         <div className="bg-transparent flex">
-                          <div className="flex space-x-2">
+                          <div className="flex space-x-3">
                             <Link href={item.githubLink}>
                               <FaGithub className="text-gray-400 hover:text-black dark:hover:text-black dark:text-gray-400" />
                             </Link>
@@ -75,6 +77,7 @@ const Contact = () => {
               })}
           </div>
         </div>
+
       </div>
     </>
   );
