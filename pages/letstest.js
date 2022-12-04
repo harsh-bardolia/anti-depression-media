@@ -102,62 +102,62 @@ const Letstest = () => {
               </li>
 
               <div className="py-2 ">
-                <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                   <input
                     id="bordered-radio-1"
                     type="radio"
                     value=""
                     name="radio_two"
-                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                    className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                   <label
-                    for="bordered-radio-1"
-                    class="py-4 ml-2 w-full text-md font-normal text-gray-900 "
+                    htmlFor="bordered-radio-1"
+                    className="py-4 ml-2 w-full text-md font-normal text-gray-900 "
                   >
                     Not at all
                   </label>
                 </div>
-                <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                   <input
                     id="bordered-radio-1"
                     type="radio"
                     value=""
                     name="radio_two"
-                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                    className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                   <label
-                    for="bordered-radio-1"
-                    class="py-4 ml-2 w-full text-md font-normal text-gray-900 "
+                    htmlFor="bordered-radio-1"
+                    className="py-4 ml-2 w-full text-md font-normal text-gray-900 "
                   >
                     Several days
                   </label>
                 </div>
-                <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                   <input
                     id="bordered-radio-1"
                     type="radio"
                     value=""
                     name="radio_two"
-                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                    className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                   <label
-                    for="bordered-radio-1"
-                    class="py-4 ml-2 w-full text-md font-normal text-gray-900 "
+                    htmlFor="bordered-radio-1"
+                    className="py-4 ml-2 w-full text-md font-normal text-gray-900 "
                   >
                     More than half the days
                   </label>
                 </div>
-                <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                   <input
                     id="bordered-radio-1"
                     type="radio"
                     value=""
                     name="radio_two"
-                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                    className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                   <label
-                    for="bordered-radio-1"
-                    class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                    htmlFor="bordered-radio-1"
+                    className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                   >
                     Nearly Everyday
                   </label>
@@ -170,62 +170,62 @@ const Letstest = () => {
                 </li>
 
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_three"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900 "
+                      htmlFor="bordered-radio-1"
+                      className="Namepy-4 ml-2 w-full text-md font-normal text-gray-900 "
                     >
                       Not at all
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_three"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900 "
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900 "
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_three"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_three"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>
@@ -240,62 +240,62 @@ const Letstest = () => {
                 </li>
 
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_four"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Not at all
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_four"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_four"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_four"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>
@@ -310,62 +310,62 @@ const Letstest = () => {
                 </li>
 
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_five"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900 "
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900 "
                     >
                       Not at all
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_five"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_five"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_five"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>
@@ -379,62 +379,62 @@ const Letstest = () => {
                 </li>
 
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_six"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Not at all
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_six"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_six"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_six"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>
@@ -472,62 +472,62 @@ const Letstest = () => {
                 {/* Eigth Question */}
 
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="bordered-radio"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Not at all
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="bordered-radio"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="bordered-radio"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="bordered-radio"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>
@@ -539,62 +539,62 @@ const Letstest = () => {
                 </li>
                 {/* Nineth Question */}
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_seven"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Not at all
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_seven"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_seven"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_seven"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>
@@ -607,62 +607,62 @@ const Letstest = () => {
                 {/* Tenth Question */}
 
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_eight"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
-                      Not at all
+                      Not at allName
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_eight"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_eight"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_eight"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>
@@ -676,62 +676,62 @@ const Letstest = () => {
                 </li>
 
                 <div className="py-2 ">
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_ten"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Not at all
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_ten"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Several days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_ten"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="bordered-radio-1"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="bordered-radio-1"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       More than half the days
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
+                  <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">
                     <input
                       id="bordered-radio-1"
                       type="radio"
                       value=""
                       name="radio_ten"
-                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
-                      for="radio_ten"
-                      class="py-4 ml-2 w-full text-md font-normal text-gray-900"
+                      htmlFor="radio_ten"
+                      className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
                       Nearly Everyday
                     </label>

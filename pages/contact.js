@@ -11,7 +11,6 @@ import {
 } from "react-icons/fa";
 
 import Link from "next/link";
-import Subscribe from "./components/Subscribe";
 import Head from "next/head";
 
 const Contact = () => {

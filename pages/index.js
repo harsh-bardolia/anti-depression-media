@@ -11,10 +11,6 @@ export default function Home() {
 
   const toggleTheme = () => {
     setX(!x);
-
-
-
-    
   };
 
   return (
