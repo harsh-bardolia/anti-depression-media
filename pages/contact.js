@@ -48,6 +48,7 @@ const Contact = () => {
                           src={item.imgLink}
                           height={100}
                           width={100}
+                          alt="Students Image"
                           // layout="intrinsic"
                           className="rounded-full"
                         />

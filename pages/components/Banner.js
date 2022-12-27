@@ -11,7 +11,7 @@ const Banner = () => {
           src={BannerImage}
           layout="fill"
           objectFit="contain"
-          className="md:py-4  "
+          className="md:py-4 relative "
           alt="Doctor Image"
         />
         <div className="flex flex-col  absolute w-full  p-2 sm:p-3 md:p-4 lg:p-8 xl:p-12 ">
