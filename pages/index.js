@@ -38,7 +38,7 @@ export default function Home() {
 
           {/* Plans */}
           <Content
-            tellContent="OUR PLANS"
+            tellContent="FUTURE PLAN"
             paraGraph="To improve the web page and making it more interative for user by adding the chatbot. Providing our services for the betterment of our society is our main goal and we try to achieve by teamwork and individual excellence."
           />
         </div>
