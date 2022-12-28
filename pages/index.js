@@ -24,7 +24,6 @@ export default function Home() {
       {/* Header */}
       <div>
         <Header onDarkToggle={toggleTheme} />
-        
 
         {/* Banner */}
         <Banner />
@@ -34,20 +33,13 @@ export default function Home() {
 
           <Content
             tellContent="OUR MISSION"
-            paraGraph="To determine the initial stage of a depression and also provide the way
-        to overcome from this situation. For that, we provide some
-        recommendations like songs, movies, books, based on user interest. And
-        if stage is higher, then we also suggest a doctor for you."
+            paraGraph="Our mission is to make people aware about depression and to break the myths of people about depression. We belive in empowering and encouraging people to give priority to their mental health."
           />
 
           {/* Plans */}
           <Content
             tellContent="OUR PLANS"
-            paraGraph="Anti Depression Media means managing & challenging tasks throughout
-        continuous Improvements and Innovations. We believe in empowering and
-        encouraging people to aware about depression and to overcome from it. We
-        believe in Teamwork and individual excellence in self-belief & trusting
-        You."
+            paraGraph="To improve the web page and making it more interative for user by adding the chatbot. Providing our services for the betterment of our society is our main goal and we try to achieve by teamwork and individual excellence."
           />
         </div>
 

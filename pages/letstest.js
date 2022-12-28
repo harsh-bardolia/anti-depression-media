@@ -180,7 +180,7 @@ const Letstest = () => {
                     />
                     <label
                       htmlFor="bordered-radio-1"
-                      className="Namepy-4 ml-2 w-full text-md font-normal text-gray-900 "
+                      className="Namepy-4 py-4 ml-2 w-full text-md font-normal text-gray-900 "
                     >
                       Not at all
                     </label>
@@ -619,7 +619,7 @@ const Letstest = () => {
                       htmlFor="bordered-radio-1"
                       className="py-4 ml-2 w-full text-md font-normal text-gray-900"
                     >
-                      Not at allName
+                      Not at all
                     </label>
                   </div>
                   <div className="flex items-center pl-4 m-2 rounded border w-[20rem] border-gray-500 dark:border-gray-700">

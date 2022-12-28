@@ -11,21 +11,19 @@ const Feature = () => {
           <div className=" m-8 px-auto py-auto sm:m-9 md:m-10 lg:m-11 xl:m-12 2xl:m-14 ">
             <ul className="list-disc list-outside ">
               <li key={0} className="text-start ">
-                It&apos;s Effectively Ask The Question To Patient So From That
-                We Can Measure The Stage Of The Depression.
+                This web page takes a QUIZ from the user and based on user&apos;s response&sbquo; an average depression stage will be predicted.
               </li>
               <li key={1} className="text-start">
-                Recommendation of the Song, Movie, Book, Based On Patient
-                interest.
+                It will provide recommendations of the songs&sbquo; movies and books based on user&apos; interest.
               </li>
               <li key={2} className="text-start">
-                Give a Recommendation to a Doctor
+              It will also provide suggestion to Doctor if the user is in critical stage. 
               </li>
               <li key={3} className="text-start">
-                Support Light/Dark Mode
+                Support light/dark mode
               </li>
               <li key={4} className="text-start">
-                High Refreshrate
+                High refreshrate
               </li>
             </ul>
           </div>
