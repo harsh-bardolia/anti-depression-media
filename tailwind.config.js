@@ -16,5 +16,7 @@ module.exports = {
       'Playfair ' : ['Playfair Display' , 'sans-serif'],
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ],
 }

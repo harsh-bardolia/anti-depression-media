@@ -16,7 +16,7 @@ const Features = () => {
       <div
         className={`${
           x ? "dark" : ""
-        } flex flex-col justify-end h-screen bg-white dark:bg-gray-600`}
+        } flex flex-col justify-end h-screen bg-white dark:bg-gray-600 scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll`}
       >
         <Head>
           <title>Features</title>
