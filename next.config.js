@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   // future: {webpack5: true},
   images: {
-    domains: ['links.papareact.com','freepik.com','media-exp1.licdn.com']
+    domains: ['links.papareact.com','freepik.com','media-exp1.licdn.com','media.licdn.com']
   }
 }
 
