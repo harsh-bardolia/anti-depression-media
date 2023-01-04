@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Image from "next/legacy/image";
 import Team from "../constant/teamNames.json";
+import { motion } from "framer-motion";
+
 import {
   FaFacebook,
   FaGithub,
@@ -20,7 +22,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div
+      <motion.div
         className={`${
           x ? "dark" : ""
         } flex flex-col justify-end bg-white dark:bg-gray-600 h-screen scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll`}
@@ -33,9 +35,22 @@ const Contact = () => {
         <Header onDarkToggle={toggleTheme} />
 
         <div className="absolute w-screen h-screen  flex flex-col items-center bg-white dark:bg-gray-700">
-          <div className="mt-24 text-center text-[3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] font-Josefin text-[#FF5A5F]">
+          <motion.div
+            initial={{
+              y: -100,
+              opacity: 0,
+            }}
+            animate={{
+              y: 0,
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1.3,
+            }}
+            className="mt-24 text-center text-[3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] font-Josefin text-[#FF5A5F]"
+          >
             TEAM MEMBERS
-          </div>
+          </motion.div>
 
           <div className="grid grid-cols-1 justify-between sm:grid-cols-2 xl:grid-cols-3">
             {Team &&
@@ -83,7 +98,7 @@ const Contact = () => {
               })}
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

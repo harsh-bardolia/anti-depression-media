@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = ({ tellContent, paraGraph }) => {
   return (
-    <div className="flex flex-1 flex-col items-center m-4 pt-5 h-screen scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll">
+    <div className="flex flex-1 flex-col items-center m-4 pt-5 h-screen">
       <div className="text-6xl text-center font-Josefin text-[#FF5A5F] ">
         {tellContent}
       </div>

@@ -4,6 +4,7 @@ import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Subscribe from "./components/Subscribe";
+import { motion } from "framer-motion";
 
 const Features = () => {
   const [x, setX] = useState(false);
@@ -13,10 +14,11 @@ const Features = () => {
 
   return (
     <>
-      <div
+      <motion.div
+        
         className={`${
           x ? "dark" : ""
-        } flex flex-col justify-end h-screen bg-white dark:bg-gray-600 scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll`}
+        } flex flex-col justify-end h-screen max-h-screen bg-white dark:bg-gray-600 scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll overscroll-x-none`}
       >
         <Head>
           <title>Features</title>
@@ -30,7 +32,7 @@ const Features = () => {
         <Subscribe />
 
         <Footer />
-      </div>
+      </motion.div>
     </>
   );
 };
