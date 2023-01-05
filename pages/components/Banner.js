@@ -53,24 +53,11 @@ const Banner = () => {
       >
         ANTI <span className="text-red-700 font-Josefin">DEPRESSION</span> MEDIA
       </motion.div>
-      <motion.div
-        initial={{
-          y: 100,
-          opacity: 0,
-        }}
-        animate={{
-          y: 0,
-          opacity: 1,
-        }}
-        transition={{
-          duration: 1.3,
-        }}
-        className="flex items-center justify-center  mt-2 "
-      >
+      <div className="flex items-center justify-center  mt-2 ">
         <button className="text-center mt-4 mb-8 px-4 py-2 bg-[#FF5A5F] rounded-full text-white font-medium shadow-sm hover:shadow-lg hover:border dark:border-none hover:border-[#FF5A5F] hover:bg-white hover:text-[#FF5A5F]">
           We are here to help you
         </button>
-      </motion.div>
+      </div>
 
       <div className="flex items-center justify-center  px-2 py-8 bg-gray-300 dark:bg-[#dfb6b7]">
         <Quoto />
