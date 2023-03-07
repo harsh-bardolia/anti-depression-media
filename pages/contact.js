@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Image from "next/legacy/image";
 import Team from "../constant/teamNames.json";
@@ -14,12 +14,22 @@ import {
 
 import Link from "next/link";
 import Head from "next/head";
+import useLocalStorage from "use-local-storage";
 
 const Contact = () => {
-  const [x, setX] = useState(false);
+  const [x, setX] = useLocalStorage("Mode", false);
   const toggleTheme = () => {
     setX(!x);
   };
+
+  useEffect(() => {
+    async () => {
+      let Members = fetch("../constant/teamNames.json")
+        .then((res) => res.json())
+        .then((data) => console.log(data));
+    };
+  }, []);
+
   return (
     <>
       <motion.div
@@ -52,24 +62,24 @@ const Contact = () => {
             TEAM MEMBERS
           </motion.div>
 
-          <div className="grid grid-cols-1 justify-between sm:grid-cols-2 xl:grid-cols-3">
+          {/* <div className="flex overflow-x-scroll justify-between sm:grid-cols-2 xl:grid-cols-3"> */}
+          <div className="flex w-full space-x-5 overflow-x-scroll scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500/40 items-center p-6 snap-x snap-mandatory">
             {Team &&
               Team.map((item, index) => {
                 return (
                   <li key={index} className="list-none">
-                    <div className="flex flex-col items-center">
+                    <div className="flex snap-center flex-col items-center border bg-[#292929]/10 dark:bg-[#292929]/70 rounded-lg p-10">
                       <div className="items-center">
                         <Image
                           src={item.imgLink}
                           height={100}
                           width={100}
                           alt="Students Image"
-                          // layout="intrinsic"
                           className="rounded-full"
                         />
                       </div>
                       <div className="p-3 items-center">
-                        <p className="text-gray-900 text-center dark:text-gray-200 font-extrabold">
+                        <p className="text-gray-900 text-center dark:text-gray-200 text-sm font-bold">
                           {item.fullName}
                         </p>
                         <div className="bg-transparent flex">
