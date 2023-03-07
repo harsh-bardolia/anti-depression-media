@@ -5,9 +5,13 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Subscribe from "./components/Subscribe";
 import { motion } from "framer-motion";
+import useLocalStorage from "use-local-storage";
+import { useEffect } from "react";
+import { data } from "autoprefixer";
+import { async } from "@firebase/util";
 
-const Features = () => {
-  const [x, setX] = useState(false);
+const Features = (name, photo) => {
+  const [x, setX] = useLocalStorage("Mode", false);
   const toggleTheme = () => {
     setX(!x);
   };
@@ -15,10 +19,9 @@ const Features = () => {
   return (
     <>
       <motion.div
-        
         className={`${
           x ? "dark" : ""
-        } flex flex-col justify-end h-screen max-h-screen bg-white dark:bg-gray-600 scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll overscroll-x-none`}
+        } flex flex-col h-screen  bg-white dark:bg-gray-600 scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll overscroll-x-none`}
       >
         <Head>
           <title>Features</title>
