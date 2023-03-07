@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 const Feature = () => {
   return (
-    <div className="dark:bg-gray-600 bg-white pt-16">
-      <div className="flex flex-col mt-1 items-center w-fill  ">
+    <div className="dark:bg-gray-600 bg-white pt-20">
+      <div className="flex flex-col  items-center w-fill  ">
         <motion.div
           initial={{
-            y: -150,
+            y: -100,
             opacity: 0,
           }}
           animate={{
