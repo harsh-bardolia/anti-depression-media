@@ -1,28 +1,37 @@
 import Image from "next/legacy/image";
 import React, { useState } from "react";
-import { Bars4Icon, MoonIcon } from "@heroicons/react/24/outline";
+import {
+  ArrowRightOnRectangleIcon,
+  Bars3Icon,
+  MoonIcon,
+} from "@heroicons/react/24/outline";
 import Link from "next/link";
 import ADM from "/image-assets/ADM.png";
 import Hamburger from "./Hamburger";
 import { useUI } from "../../Context/UIContext";
+import useLocalStorage from "use-local-storage";
+import { signOut } from "firebase/auth";
+import { auth } from "../../firebase";
+import { motion } from "framer-motion";
 
-const Header = ({ active, onDarkToggle }) => {
-  const [x, setX] = useState(false);
-  const [open, setOpen] = useState(false);
+const Header = ({ active, onDarkToggle, photo, name }) => {
+  // const [x, setX] = useLocalStorage(false);
+  const {x, setX} = useUI();
   const { navMenu, toggleNavMenu } = useUI();
+  const { user, setUser } = useUI();
 
   return (
     <header className="fixed top-0 z-[999] w-screen grid grid-cols-3 items-center justify-between bg-white shadow-md p-3  md:px-10 dark:bg-gray-800">
       {/* Left */}
 
       <div className=" relative flex items-center h-10 cursor-pointer my-auto ">
-        <Link href="/">
+        <Link href="/" >
           <Image
             src={ADM}
             layout="fill"
             objectFit="contain"
             objectPosition="left"
-            className=""
+            // className="relative "
             alt="Logo"
             viewBox="0 0 20 20"
           />
@@ -31,7 +40,7 @@ const Header = ({ active, onDarkToggle }) => {
 
       {/* Middle */}
 
-      <div className="flex items-center">
+      <div className="flex justify-between">
         <ul className="hidden items-center space-x-8 sm:inline-flex text-black dark:text-white">
           <Link href="/">
             <li className="hover:text-[#FF5A5F] cursor-pointer active:scale-90 transition duration-150">
@@ -58,22 +67,43 @@ const Header = ({ active, onDarkToggle }) => {
 
       {/* Right */}
 
-      <div className="flex items-center justify-end space-x-1 ">
-        <Link href="/login">
-          <button className="bg-[#FF5A5F] min-w-[5rem] py-2 px-4 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 ">
-            Sign in
-          </button>
-        </Link>
-
-        <div className={x ? "dark" : ""} onClick={onDarkToggle}>
-          <MoonIcon className="h-7 px-1 cursor-pointer text-black hover:text-[#FF5A5F] active:scale-90 transition duration-150 dark:text-white dark:hover:text-[#FF5A5F]" />
+      <div className="flex items-center justify-end space-x-2 cursor-pointer">
+        <div className="flex  items-center gap-1">
+          <div className="hidden lg:flex text-sm dark:text-white ">{name}</div>
+          {photo && (
+            <Image
+              // fill,fixed,intrinsic,responsive,undefined
+              layout="intrinsic"
+              height={35}
+              width={35}
+              className="shadow-lg rounded-full "
+              src={photo}
+            />
+          )}
         </div>
-        <div>
-          <Bars4Icon
+
+        <MoonIcon
+          onClick={onDarkToggle}
+          className={`h-7 px-1 cursor-pointer text-black active:scale-100 transition duration-150 dark:text-white `}
+        />
+
+        <motion.div
+          // whileHover={{ scale: 1.2, rotate: 180 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: -90,
+            borderRadius: "100%",
+          }}
+        >
+          <Bars3Icon
             className="text-black h-7  cursor-pointer dark:text-white hover:text-[#FF5A5F] dark:hover:text-[#FF5A5F] visible active:scale-90 transition duration-150 sm:hidden"
             onClick={toggleNavMenu}
           />
-        </div>
+        </motion.div>
+        <ArrowRightOnRectangleIcon
+          onClick={() => signOut(auth)}
+          className="h-7 px-1 cursor-pointer text-[#FF5A5F] active:scale-100 transition duration-150 "
+        />
       </div>
 
       {navMenu && <Hamburger />}
