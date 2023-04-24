@@ -112,7 +112,7 @@ const Login = () => {
           Log in to access your account
         </h2>
         <div className="flex items-center justify-center">
-          <Image src={LoginSet} objectFit="contain" width={400} />
+          <Image src={LoginSet} alt="Login Set" objectFit="contain" width={400} />
         </div>
 
         {/* <button
@@ -130,6 +130,7 @@ const Login = () => {
             height={25}
             width={25}
             src={Google}
+            alt="Google"
           />
           <div className="text-white font-bold ">Continue with Google</div>
         </div>

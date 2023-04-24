@@ -92,7 +92,7 @@ const Result = () => {
         </div>
         <div className="relative text-black dark:text-white  flex items-center justify-center ">
           {weighPer < 33 ? (
-            <p className="text-black font-bold text-xl ">Congratulations, You're Successfully Fit !!</p>
+            <p className="text-black font-bold text-xl ">Congratulations, You&apos;re Successfully Fit !!</p>
           ) : weighPer >= 33 && weighPer <= 63 ? (
             // <p>Recommedation Need</p>
             <Link
@@ -107,7 +107,7 @@ const Result = () => {
               </button>
             </Link>
           ) : (
-            <p className="text-red-600 font-bold">You're at the extreme Stage, Need a Doctor</p>
+            <p className="text-red-600 font-bold">You&apos;re at the extreme Stage, Need a Doctor</p>
           )}
         </div>
       </div>

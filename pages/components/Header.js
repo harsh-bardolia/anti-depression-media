@@ -125,6 +125,7 @@ const Header = ({ active, onDarkToggle, photo, name }) => {
               width={35}
               className="shadow-lg rounded-full "
               src={photo}
+              alt="User Profile"
             />
           )}
         </div>
