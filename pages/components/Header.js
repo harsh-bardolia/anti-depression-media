@@ -1,5 +1,5 @@
 import Image from "next/legacy/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   ArrowRightOnRectangleIcon,
   Bars3Icon,
@@ -13,6 +13,53 @@ import useLocalStorage from "use-local-storage";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 import { motion } from "framer-motion";
+
+
+
+// const DarkMode = () => {
+//   let clickedClass = "clicked";
+//   // let body = document.body;
+//   const lightTheme = "light";
+//   const darkTheme = "dark";
+//   let theme;
+
+//   // if ( localStorage) {
+//   //   theme = localStorage.getItem("theme");
+//   // }
+
+//   useEffect(() => {
+//     theme = localStorage.getItem('theme')
+//   }, []);
+
+//   if (theme === lightTheme || theme === darkTheme) {
+//     body.classList.add(theme);
+//   } else {
+//     body.classList.add(lightTheme);
+//   }
+
+//   const switchTheme = (e) => {
+//     if (theme === darkTheme) {
+//       body.classList.replace(darkTheme, lightTheme);
+//       e.target.classList.remove(clickedClass);
+//       localStorage.setItem("theme", "light");
+//       theme = lightTheme;
+//     } else {
+//       body.classList.replace(lightTheme, darkTheme);
+//       e.target.classList.add(clickedClass);
+//       localStorage.setItem("theme", "dark");
+//       theme = darkTheme;
+//     }
+//   };
+//   return (
+//     <button
+//       className={`bg-red-500 px-4 py-2 transition duration-150 ease-in-out  ${theme === "dark" ? clickedClass : ""}`}
+//       id="darkMode"
+//       onClick={(e) => switchTheme(e)}
+//     >
+//       Hello
+//     </button>
+//   );
+// };
 
 const Header = ({ active, onDarkToggle, photo, name }) => {
   // const [x, setX] = useLocalStorage(false);
@@ -82,8 +129,10 @@ const Header = ({ active, onDarkToggle, photo, name }) => {
           )}
         </div>
 
+        {/* <DarkMode /> */}
         <MoonIcon
           onClick={onDarkToggle}
+          // onClick={(e) => switchTheme(e)}
           className={`h-7 px-1 cursor-pointer text-black active:scale-100 transition duration-150 dark:text-white `}
         />
 

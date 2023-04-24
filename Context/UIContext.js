@@ -29,6 +29,7 @@ export const UIProvider = ({ children }) => {
         photoUrl: user.photoURL,
       })
   }
+  
 
   const value = {
     x,

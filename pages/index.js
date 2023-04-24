@@ -29,7 +29,7 @@ export default function Home() {
         setUser({
           name: user.displayName,
           photoUrl: user.photoURL,
-        })
+        });
         // userInfo();
       } else {
         // console.log('Required');
@@ -76,7 +76,7 @@ export default function Home() {
             paraGraph="To improve the web page and making it more interative for user by adding the chatbot. Providing our services for the betterment of our society is our main goal and we try to achieve by teamwork and individual excellence."
           />
         </div>
-
+        {/* <DarkMode /> */}
         {/* Subscribe */}
         <Subscribe />
 
