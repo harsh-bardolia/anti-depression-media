@@ -18,7 +18,7 @@ const Login = () => {
         router.push("/");
       }
     });
-  }, []);
+  });
 
   return (
     <div className="">
