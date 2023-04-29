@@ -1,1 +1,9 @@
-console.log('This is for testing purpose only');
+import React from 'react'
+
+export default function Progress() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
