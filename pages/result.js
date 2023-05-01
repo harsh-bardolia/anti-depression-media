@@ -15,10 +15,7 @@ const Result = () => {
   const router = useRouter();
   const { totalWeight } = router.query;
 
-  console.log("Total Weight : " + totalWeight);
-
   let weighPer = Math.ceil((totalWeight * 100) / 33);
-  // console.log("Total % : " + weighPer);
 
   const calcColor = (weighPer, start, end) => {
     let a = weighPer / 100,
@@ -92,7 +89,6 @@ const Result = () => {
           {weighPer < 33 ? (
             <p className="text-black font-bold text-xl ">Congratulations, You&apos;re Successfully Fit !!</p>
           ) : weighPer >= 33 && weighPer <= 63 ? (
-            // <p>Recommedation Need</p>
             <Link
               href={{
                 pathname: "/recommed",

@@ -16,7 +16,6 @@ const QuestionsSlide = ({ slides, isSelected }) => {
     setX(!x);
   };
   const [weight, setWeight] = useState(0);
-  console.log(weight);
   const [count, setCount] = useState(0);
 
   const [selectId, setSelectId] = useState();
