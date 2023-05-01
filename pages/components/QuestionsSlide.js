@@ -143,7 +143,7 @@ const QuestionsSlide = ({ slides, isSelected }) => {
           )}
           <div className="flex justify-center space-x-4 p-4">
             <button
-              disabled={count === slides.length - 1}
+              disabled={count === 9}
               onClick={() => {
                 setCount(count + 1);
                 setClr(document.body);
@@ -164,7 +164,7 @@ const QuestionsSlide = ({ slides, isSelected }) => {
             >
               <button
               
-                disabled={count !== slides.length - 1}
+                disabled={count !== 9}
                 className="bg-[#FF5A5F] font-bold flex justify-between py-3 px-6 text-white rounded-lg shadow-sm hover:shadow-xl active:scale-90 transition duration-150 "
               >
                 Submit

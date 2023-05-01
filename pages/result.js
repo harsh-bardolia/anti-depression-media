@@ -1,14 +1,12 @@
+import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { Circle } from "rc-progress";
-import React, { useState } from "react";
 import useLocalStorage from "use-local-storage";
 import Header from "./components/Header";
 import { useProvider } from "../Context/UIContext";
-import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist";
 import Link from "next/link";
-import Recommed from "./recommed";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/outline";
 
 const Result = () => {
@@ -37,7 +35,7 @@ const Result = () => {
       <div
         className={`${
           x ? "dark" : ""
-        } overflow-x-none  w-full h-screen dark:bg-gray-800 scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll `}
+        } overflow-x-none  w-full h-screen dark:bg-gray-900 scrollbar-thin scrollbar-thumb-[#FF5A5F] scrollbar-track-gray-500 overflow-y-scroll `}
       >
         <Head>
           <title>Result</title>
@@ -80,7 +78,7 @@ const Result = () => {
               strokeWidth={4}
               trailWidth={4}
               trailColor="#6b7280"
-              strokeLineCap="square"
+              strokeLinecap="square"
               gapDegree={20}
               gapPosition="top"
               className="h-[200px] w-[200px] items-center justify-center relative sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] xl:w-[450px] xl:h-[450px]"
